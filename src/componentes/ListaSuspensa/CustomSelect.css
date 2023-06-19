@@ -1,0 +1,16 @@
+.custom-select {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #79C99E;
+    padding: 10px 20px;
+    color: white;
+    box-sizing: border-box;
+    height: 50px; /* Aumentado para evitar que o texto seja cortado */
+}
+
+.custom-select::placeholder{
+    color: white;
+}

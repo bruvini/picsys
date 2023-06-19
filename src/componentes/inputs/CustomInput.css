@@ -1,0 +1,15 @@
+.custom-input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #79C99E;
+    padding: 10px 20px;
+    color: white;
+    box-sizing: border-box; /* Assegura que o padding não aumenta o tamanho total do input */
+}
+
+.custom-input::placeholder{
+    color: white;
+}

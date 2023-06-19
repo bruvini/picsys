@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-cadastro-card {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.welcome-message {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.form {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.divisoria {
+    border-right: 2px solid #5C85D6;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.custom-input, .custom-select {
+    height: 35px;
+}
+
+.custom-button {
+    position: relative;
+    overflow: hidden;
+    height: 35px;
+    width: 150px;
+    align-self: center;
+}
+
+.custom-button:hover {
+    background-color: #4a6fb0;
+}
+
+.custom-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transition: all .5s ease;
+}
+
+.custom-button:hover::after {
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    border-top: 1px solid #5C85D6;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #5C85D6;
+    margin-top: 20px;
+}
+
+.rodape a {
+    color: #5C85D6;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .login-cadastro-card {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .divisoria {
+        border-right: none;
+        border-top: 2px solid #5C85D6;
+    }
+}
