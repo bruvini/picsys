@@ -57,6 +57,10 @@
     gap: 10px;
 }
 
+.forgot-password{
+    font-size: 12px;
+}
+
 .divisoria {
     border-right: 2px solid #5C85D6;
     height: 100%;

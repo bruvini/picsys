@@ -11,7 +11,7 @@ function LoginCadastro() {
             <div className="login-cadastro-card">
                 <div className="top-section">
                     <div className="logo-container">
-                        <img className="logo" src={logo} alt="SustenOil Logo" />
+                        <img className="logo" src={logo} alt="Logo do Sistema PICSys que mostra a letra P em estilo arábico românico com flores na sua base" />
                     </div>
                     <h1 className="welcome-message">Bem-vindo(a) ao PICSys: Potencializando a saúde através da natureza e tecnologia</h1>
                 </div>
@@ -49,7 +49,7 @@ function LoginCadastro() {
 
                 <div className="rodape">
                     <p>
-                        O PICSys é um sistema dedicado a potencializar a saúde por meio da natureza e tecnologia, promovendo o bem-estar e a qualidade de vida.
+                        O PICSys é um sistema dedicado a potencializar a saúde por meio da natureza e tecnologia, promovendo o bem-estar e a qualidade de vida através das Práticas Integrativas e Complementares no SUS.
                     </p>
                     <p>
                     Desenvolvido por <a href="https://bvsdevelopments.com/" target="_blank" rel="noopener noreferrer"> <strong>Enfermeiro Bruno Vinícius da Silva</strong></a>, programador e especialista em saúde da família pela Secretaria Municipal de Saúde de Florianópolis.
