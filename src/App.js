@@ -1,10 +1,11 @@
 import './App.css';
+import AuriculotherapyPage from './pages/AuriculotherapyPage';
 import LoginCadastro from './pages/LoginCadastro';
 
 function App() {
   return (
     <div className="App">
-      <LoginCadastro/>
+      <AuriculotherapyPage/>
     </div>
   );
 }

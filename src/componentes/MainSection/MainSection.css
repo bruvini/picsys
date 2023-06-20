@@ -1,0 +1,6 @@
+.main-section {
+    margin: 20px; /* Ajuste para o espaço desejado. Aqui é o espaço de "um dedo" em todos os lados */
+    max-width: calc(100% - 40px); /* Aqui estamos calculando a largura total da tela menos as margens que adicionamos nas laterais. Se a margem mudar, mude aqui também. */
+    padding: 20px;
+    background-color: #fff;
+}

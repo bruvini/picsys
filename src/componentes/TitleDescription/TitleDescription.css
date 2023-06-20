@@ -1,0 +1,14 @@
+.title-description {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title-description h1 {
+    font-size: 32px;
+}
+
+.title-description p {
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 15px;
+}

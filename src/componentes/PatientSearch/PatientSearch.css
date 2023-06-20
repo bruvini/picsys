@@ -1,0 +1,25 @@
+.patient-search {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.patient-search input {
+    width: 300px; /* Ajuste para o tamanho desejado */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50px; /* Ajuste para o arredondamento desejado */
+    border: 2px solid #C0C0C0; /* Cor metálica para a borda */
+    background-color: #D0D0D0; /* Cor de fundo mais escura */
+    color: #000; /* Cor do texto */
+}
+
+.patient-search input::placeholder {
+    color: #808080; /* Cor do placeholder, mais escuro que o fundo */
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}

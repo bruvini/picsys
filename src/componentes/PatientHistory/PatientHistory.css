@@ -1,0 +1,35 @@
+.patient-history {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.patient-history textarea {
+    width: 95%; /* Ajuste para o tamanho desejado */
+    min-height: 100px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px; /* Ajuste para o arredondamento desejado */
+    border: 2px solid #C0C0C0; /* Cor metálica para a borda */
+    background-color: #D0D0D0; /* Cor de fundo mais escura */
+    color: #000; /* Cor do texto */
+}
+
+.patient-history button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.prosseguirIcon {
+    width: 50px;
+    height: 50px; /* Ajuste para o tamanho desejado */
+}
+
+.prosseguirIcon:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
