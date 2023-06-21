@@ -1,9 +1,9 @@
 import React from 'react';
 import './LoginCadastro.css';
-import CustomInput from '../componentes/inputs/CustomInput';
-import CustomButton from '../componentes/botoes/CustomButton';
-import CustomSelect from '../componentes/ListaSuspensa/CustomSelect';
-import logo from '../assets/so_logo.png';
+import CustomInput from '../../componentes/inputs/CustomInput';
+import CustomButton from '../../componentes/botoes/CustomButton';
+import CustomSelect from '../../componentes/ListaSuspensa/CustomSelect';
+import logo from '../../assets/so_logo.png';
 
 function LoginCadastro() {
     return (

@@ -14,7 +14,7 @@
 }
 
 .footer-logo .logo {
-    width: 100px; 
+    width: 100px;
 }
 
 .footer-divider {
@@ -41,8 +41,10 @@
 }
 
 .footer-social .social-icon {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    margin-right: 15px; /* Ajuste o espaço conforme necessário */
+    width: 30px;
+    /* Ajuste o tamanho conforme necessário */
+    margin-right: 15px;
+    /* Ajuste o espaço conforme necessário */
 }
 
 .footer-middle {

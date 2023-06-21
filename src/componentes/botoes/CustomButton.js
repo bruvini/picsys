@@ -7,6 +7,7 @@ function CustomButton(props) {
             className="custom-button"
             type={props.type || "button"}
             onClick={props.onClick}
+            style={props.buttonStyle}
         >
             {props.children}
         </button>

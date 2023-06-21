@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../componentes/Header/Header';
-import Banner from '../componentes/Banner/Banner';
-
-import MainSection from '../componentes/MainSection/MainSection';
-import PatientSearch from '../componentes/PatientSearch/PatientSearch';
-import PatientHistory from '../componentes/PatientHistory/PatientHistory';
+import Header from '../../componentes/Header/Header';
+import Banner from '../../componentes/Banner/Banner';
+import MainSection from '../../componentes/MainSection/MainSection';
+import PatientSearch from '../../componentes/PatientSearch/PatientSearch';
+import PatientHistory from '../../componentes/PatientHistory/PatientHistory';
 import './AuriculotherapyPage.css';
-import Footer from '../componentes/Footer/Footer';
+import Footer from '../../componentes/Footer/Footer';
+import imagemBanner from '../../assets/BannerAuriculo.png';
 
 const AuriculotherapyPage = () => {
     const handleSearch = (e) => {
@@ -20,7 +20,7 @@ const AuriculotherapyPage = () => {
     return (
         <div className="auriculotherapy-page">
             <Header />
-            <Banner />
+            <Banner image={imagemBanner} />
             <MainSection>
                 <PatientSearch onSearch={handleSearch} />
                 <PatientHistory onChange={handleHistoryChange} />

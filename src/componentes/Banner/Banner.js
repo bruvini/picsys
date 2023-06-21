@@ -1,11 +1,10 @@
 import React from 'react';
 import './Banner.css';
-import banner from '../../assets/BannerAuriculo.png'
 
-const Banner = () => {
+const Banner = ({image}) => {  // adicione a propriedade image aqui
     return (
         <div className="banner">
-            <img src={banner} alt="Banner" />
+            <img src={image} alt="Banner" />
         </div>
     );
 };

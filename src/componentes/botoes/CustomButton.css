@@ -1,15 +1,13 @@
 .custom-button {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #5C85D6;
-    color: white;
-    margin-bottom: 10px;
+    margin: 20px auto 10px auto;
     font-size: 16px;
     cursor: pointer;
     box-sizing: border-box;
-    display: flex; /* Adicionado para centralizar o conteúdo */
-    align-items: center; /* Adicionado para centralizar o conteúdo */
-    justify-content: center; /* Adicionado para centralizar o conteúdo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

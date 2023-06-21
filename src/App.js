@@ -1,11 +1,15 @@
 import './App.css';
-import AuriculotherapyPage from './pages/AuriculotherapyPage';
-import LoginCadastro from './pages/LoginCadastro';
+import AcupunturaPage from './pages/Acupuntura/AcupunturaPage';
+import AuriculotherapyPage from './pages/Auriculoterapia/AuriculotherapyPage';
+import FitoterapiaPage from './pages/FitoterapiaPage/FitoterapiaPage';
+import FloraisPage from './pages/FloraisPage/FloraisPage';
+import LoginCadastro from './pages/LoginCadastro/LoginCadastro';
+import PacientePage from './pages/PacientePage/PacientePage';
 
 function App() {
   return (
     <div className="App">
-      <AuriculotherapyPage/>
+      <PacientePage/>
     </div>
   );
 }
